@@ -6,4 +6,4 @@ then comes the SignInPage class where we define the loactors and functionalities
 4th is AddToCartPage class in that the item we fetch is now added to cart and go through all the steps and after the completetion of steps we perform verification of order confirmation as well
 5th is RegistrationPage class which is addition functionality to show how whole create account process is automated
 and then the TestCase class came where we call all the functions and provide the data to be pass
-note: in TestCase class in testUserRegistartionProcess method just change the email as it is already created during testing so if u don't change the email it'll fail the test
+note: in TestCase class in testUserRegistartionProcess method just change the email in line 48 as it is already created during testing so if u don't change the email it'll fail the test
