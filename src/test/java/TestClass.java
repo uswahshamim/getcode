@@ -45,7 +45,7 @@ public class TestClass extends Utility {
     public void TestUserRegistrationProcess() throws InterruptedException {
         RegistrationPage register = PageFactory.initElements(driver, RegistrationPage.class);
         register.clickSignOut();
-        register.enterTheEmail("uswahshamim08@gmail.com");
+        register.enterTheEmail("uswahshamim48@gmail.com");
         register.clickCreateAccountButton();
         register.clickGenderOption();
         register.enterFirstName("uswah");
